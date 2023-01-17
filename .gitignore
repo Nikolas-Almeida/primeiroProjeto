@@ -1,2 +1,3 @@
 # Arquivos para o git ignorar
 venv
+.mypy_cache
