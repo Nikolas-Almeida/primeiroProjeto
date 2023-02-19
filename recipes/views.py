@@ -7,7 +7,7 @@ from django.shortcuts import render
 # HTTP REQUEST
 def home(request):
     # 'Respondendo' a "request" do usuário
-    return HttpResponse('HOME dentro da app')
+    return render(request, 'home.html')
 
 
 # HTTP REQUEST
