@@ -6,4 +6,6 @@ from django.shortcuts import render
 # HTTP REQUEST
 def home(request):
     # 'Respondendo' a "request" do usuário
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/pages/home.html', {
+        "name": "Nikolas de Almeida"
+    })
