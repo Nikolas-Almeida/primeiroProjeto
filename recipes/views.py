@@ -7,5 +7,5 @@ from django.shortcuts import render
 def home(request):
     # 'Respondendo' a "request" do usuário
     return render(request, 'recipes/pages/home.html', {
-        "name": "Nikolas de Almeida"
+        "name": "Nikolas de Almeida",
     })
